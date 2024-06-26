@@ -124,8 +124,8 @@ sr.reveal('.tools', {origin: 'left'})
 // JavaScript để chuyển đổi ngôn ngữ
 function changeLanguage(language) {
     if (language === 'english') {
-        window.location.href = '/HTML/indexEN.html';
+        window.location.href = '/Porfolio/HTML/indexEN.html';
     } else if (language === 'vietnamese') {
-        window.location.href = '/HTML/indexVN.html';
+        window.location.href = '/Porfolio/HTML/indexVN.html';
     }
 }
