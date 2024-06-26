@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--=========================== FAVICON =============================-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--===========================FAVICON=============================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--=========================== CSS =============================-->
+
+    <link rel="stylesheet" href="/CSS/stylesVN.css">
+
+    <title>Portfolio Web</title>
+
+</head>
+
+<body>
+    <!--=========================== HEADER =============================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">HOP</a>
+
+            <!-- LANGUAGE SWITCHING BUTTONS -->
+            <div class="lang-buttons">
+                <button class="lang-button" onclick="window.location.href='/HTML/indexEN.html';">
+                    <img src="/IMAGE/en-US.gif" alt="English Flag">
+                </button>
+
+                <button class="lang-button" onclick="window.location.href='/HTML/indexVN.html';">
+                    <img src="/IMAGE/vi-VN.gif" alt="Vietnamese Flag">
+                </button>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link">Trang Chủ</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="nav__link">Việc Làm</a>
+                    </li>
+
+                    <li>
+                        <a href="#info" class="nav__link">Thông Tin</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="nav__link">Dịch Vụ</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Liên Hệ</a>
+                    </li>
+                </ul>
+
+
+                <!--Close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="/IMAGE/Anh_CV-removebg-preview.png" alt="image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Nguyễn Văn Hợp</h1>
+                    <h3 class="home__profession">Quản Trị Hệ Thống</h3>
+                </div>
+
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+
+                    <span class="home__scroll-text">Các Công Việc Hiện Tại</span>
+                </a>
+            </div>
+        </section>
+
+        <!--==================== WORKS ====================-->
+        <section class="work section" id="work">
+            <h2 class="section__title">CÁC CÔNG VIỆC HIỆN TẠI</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Quản Trị Hệ Thống</h2>
+                        <p class="work__ddedscription">
+                            Quản lý và giám sát hệ thống máy chủ, đảm bảo hoạt động ổn định và an toàn cho các công ty
+                            VNPAY.
+                        </p>
+
+                        <img src="/IMAGE/systemadmin.webp" alt="image" class="work__imag">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Nhà Sản Xuất Âm Nhạc</h2>
+                        <p class="work__ddedscription">
+                            Sản xuất và phối nhạc để tạo ra các bản ghi chất lượng cao.
+                        </p>
+
+                        <img src="/IMAGE/producermusic.jpg" alt="image" class="work__imag">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Thiết Kế Web</h2>
+                        <p class="work__ddedscription">
+                            Mới bắt đầu học và thực hành thiết kế web, tạo giao diện đơn giản và thân thiện với người
+                            dùng. Liên tục học hỏi và phát triển kỹ năng.
+                        </p>
+
+                        <img src="/IMAGE/coder.jpg" alt="image" class="work__imag">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== INFO ====================-->
+        <section class="info section" id="info">
+            <h2 class="section__title">THÔNG TIN CỦA TÔI</h2>
+
+            <div class="info__container container grid">
+                <!-- ABOUT -->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">Về Tôi</h3>
+                        <p class="about__description">
+                            Quản trị hệ thống chịu trách nhiệm <b>duy trì</b>, <b>cấu hình</b>, và <b>đảm bảo hoạt động
+                                ổn định</b> của các hệ thống máy tính và máy chủ trong tổ chức.
+                        </p>
+
+                        <a href="/Document/CV Nguyen Van Hop.pdf" download="" target="_blank"
+                            class="button about__button">Tải CV</a>
+                    </div>
+
+                    <img src="/IMAGE/Anh_CV-removebg-preview.png" alt="image" class="about__img">
+
+                </div>
+
+                <!-- EXPERIENCE -->
+                <div class="experience">
+                    <h3 class="info__title">Kinh Nghiệm</h3>
+
+
+                    <div class="experience__content grid">
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">FPT Telecom</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Thực Tập Sinh Quản Trị Hệ Thống</h3>
+                                <span class="experience__date">06/2022 - 09/2022</span>
+                                <p class="experience__description">
+                                    Thực tập tại Phòng Vận Hành Hệ Thống;
+                                    Giám sát hệ thống mạng và truyền hình;
+                                    Giám sát và xử lý sự cố;
+                                    Nghiên cứu tài liệu về giao thức PPPOE, mô hình BRAS
+                                    Center, ISIS. Nghiên cứu SDH, DWDM.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Freelancer</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Nhà Sản Xuất Âm Nhạc</h3>
+                                <span class="experience__date">2021 - Hiện tại</span>
+                                <p class="experience__description">
+                                    Phối nhạc bằng FL Studio;
+                                    Chỉnh sửa và xử lý video bằng Adobe Premiere và Adobe After Effects;
+                                    Tham gia nền tảng YouTube dưới kênh H2K1 Production và cộng tác với Hoa
+                                    Hồng Radio Music;
+                                    Thành tích: 1 video trên 100k lượt xem, 2 video trên 50k lượt xem, 12 video trên 10k
+                                    lượt xem.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Công ty AlttekGlobal</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Quản Trị Hệ Thống Của ATG</h3>
+                                <span class="experience__date">12/2023 - Hiện tại</span>
+                                <p class="experience__description">
+                                    Quản lý máy chủ thử nghiệm của VNPAY;
+                                    Kiểm tra log hệ thống và xử lý lỗi;
+                                    Release source;
+                                    Xây dựng máy chủ mới cho công ty;
+                                    Cấu hình dịch vụ;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SKILLS-->
+                <div class="skills">
+                    <h3 class="info__title">Kỹ năng</h3>
+
+                    <div class="skills__content grid">
+                        <div class="skills__box">
+                            <img src="/IMAGE/info-html.svg" alt="image" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="/IMAGE/info-css.svg" alt="image" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="/IMAGE/info-javascript.svg" alt="image" class="skills__img">
+                            <span class="skills__name">JAVA SCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TOOLS -->
+                <div class="tools">
+                    <h3 class="info__title">Công cụ</h3>
+
+                    <div class="tools__content grid">
+                        <div class="tools__box">
+                            <img src="/IMAGE/linux-tux-1.svg" alt="Git" class="tools__img">
+                            <span class="tools__name">LINUX</span>
+                        </div>
+
+                        <div class="tools__box">
+                            <img src="/IMAGE/mysql-3.svg" alt="VS Code" class="tools__img">
+                            <span class="tools__name">MYSQL</span>
+                        </div>
+
+                        <div class="tools__box">
+                            <img src="/IMAGE/elasticsearch.svg" alt="Docker" class="tools__img">
+                            <span class="tools__name">ELASTICSEARCH</span>
+                        </div>
+
+                        <div class="tools__box">
+                            <img src="/IMAGE/windows.svg" alt="Docker" class="tools__img">
+                            <span class="tools__name">WINDOWS SEVER</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">DỊCH VỤ</h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-server-line services__icon"></i>
+                    <h3 class="services__title">Quản lý máy chủ</h3>
+                    <p class="services__description">
+                        Cài đặt, cấu hình và bảo trì môi trường máy chủ để đảm bảo hiệu suất và bảo mật tối ưu.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-shield-keyhole-line services__icon"></i>
+                    <h3 class="services__title">Bảo mật mạng</h3>
+                    <p class="services__description">
+                        Triển khai các biện pháp bảo mật để bảo vệ hạ tầng mạng khỏi truy cập trái phép và các mối đe
+                        dọa.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-bar-chart-box-line services__icon"></i>
+                    <h3 class="services__title">Giám sát hệ thống</h3>
+                    <p class="services__description">
+                        Giám sát liên tục hiệu suất và sức khỏe hệ thống để phát hiện và giải quyết vấn đề một cách tích
+                        cực.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-database-2-line services__icon"></i>
+                    <h3 class="services__title">Sao lưu và phục hồi</h3>
+                    <p class="services__description">
+                        Thiết lập và quản lý hệ thống sao lưu để đảm bảo tính nguyên vẹn dữ liệu và sẵn có khi xảy ra sự
+                        cố hệ thống.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-code-box-line services__icon"></i>
+                    <h3 class="services__title">Triển khai phần mềm</h3>
+                    <p class="services__description">
+                        Cài đặt, cập nhật và cấu hình ứng dụng phần mềm để đáp ứng nhu cầu của tổ chức.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">LIÊN HỆ</h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="" placeholder="Tên" required class="contact__input">
+                        <input type="email" name="" placeholder="Email" required class="contact__input">
+                    </div>
+
+                    <textarea name="user_message" placeholder="Tin nhắn" required
+                        class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button contact__button">Gửi Tin Nhắn</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__social grid">
+                    <a href="https://www.facebook.com/hopnguyen2001/" target="_blank" class="contact__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <span>Facebook</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/hop1567/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/hop-nguyen-906833244/" target="_blank"
+                        class="contact__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                        <span>Linkedin</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Trang Chủ</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">Công Việc</a>
+                </li>
+
+                <li>
+                    <a href="#info" class="footer__link">Thông Tin</a>
+                </li>
+
+            </ul>
+
+            <span class="footer__copy">
+                &#169 Copyright @Hop
+            </span>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="/JS/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/JS/mainVN.js"></script>
+
+</body>
+
+</html>
