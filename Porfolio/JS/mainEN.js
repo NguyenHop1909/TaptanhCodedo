@@ -65,7 +65,7 @@ const sendEmail = (e) =>{
         }, () =>{
             // Show error message
             contactMessage.textContent = 'Message not sent (services error) ❌'
-        },5000)
+        })
 }
 
 contactForm.addEventListener('submit', sendEmail)
