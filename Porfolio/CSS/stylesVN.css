@@ -840,7 +840,7 @@ img {
     }
 
     .home__profession{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .home__profession::after{
         bottom: -1rem;
