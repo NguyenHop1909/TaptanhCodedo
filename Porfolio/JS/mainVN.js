@@ -48,7 +48,8 @@ const sendEmail = (e) =>{
     e.preventDefault()
 
     // serviceID - templateID - #form - publickey
-    emailjs.sendForm('service_v93u7or','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
+    emailjs.sendForm('service_v93','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
+    // emailjs.sendForm('service_v93u7or','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
         .then(() => {
             // Show sent message
             contactMessage.textContent = 'Tin nhắn đã được gửi thành công ✅'
