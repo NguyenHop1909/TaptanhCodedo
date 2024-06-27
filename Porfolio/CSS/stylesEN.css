@@ -480,6 +480,12 @@ img {
     margin-bottom: .75rem;
 }
 
+.experience__description {
+    list-style-type: disc; /* Dấu đầu dòng */
+    padding-left: 20px; /* Khoảng cách từ đầu dòng đến nội dung */
+}
+
+
 
 /* SKILLS */
 .skills__img{
@@ -991,9 +997,3 @@ img {
 .lang-button:hover {
     opacity: 0.7; /* Hiệu ứng khi di chuột qua */
 }
-
-
-
-
-
-
