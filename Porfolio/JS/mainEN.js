@@ -48,7 +48,8 @@ const sendEmail = (e) =>{
     e.preventDefault()
 
     // serviceID - templateID - #form - publickey
-    emailjs.sendForm('service_v93u7or','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
+    emailjs.sendForm('service_v93u','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
+    //emailjs.sendForm('service_v93u7or','template_u3izkov','#contact-form','GPNj-BRe0l-zVi18t')
         .then(() => {
             // Show sent message
             contactMessage.textContent = 'Message sent successfully ✅'
@@ -124,8 +125,8 @@ sr.reveal('.tools', {origin: 'left'})
 // JavaScript to convert language
 function changeLanguage(language) {
     if (language === 'english') {
-        window.location.href = '/HTML/indexEN.html';
+        window.location.href = '/Porfolio/HTML/indexEN.html';
     } else if (language === 'vietnamese') {
-        window.location.href = '/HTML/indexVN.html';
+        window.location.href = '/Porfolio/HTML/indexVN.html';
     }
 }
